@@ -1273,7 +1273,7 @@
 		}
 
 		while (el && (el = el.previousElementSibling)) {
-			if ((el.nodeName.toUpperCase() !== 'TEMPLATE') && (selector === '>*' || _matches(el, selector))) {
+			if ((el.nodeName.toUpperCase() !== 'TEMPLATE') && (selector === '>*')) {
 				index++;
 			}
 		}
